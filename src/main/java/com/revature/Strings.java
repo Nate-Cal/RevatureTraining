@@ -25,6 +25,10 @@ public class Strings {
         System.out.println();
         System.out.println(name);
         System.out.println(name.toLowerCase());
+        System.out.println(name.toUpperCase());
+        System.out.println(name.substring(6));
+        System.out.println(name.substring(6,12));
+
 
     }
 }
