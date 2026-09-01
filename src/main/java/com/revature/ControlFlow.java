@@ -2,10 +2,24 @@ package com.revature;
 
 public class ControlFlow {
     public static void main(String[] args) {
-        System.out.println("User");
+
+        // Checks
+        int num = 10;
+        if (num > 5) {
+            System.out.println("Num is greater than 5");
+        }
+
+        int age = 18;
+        if (age >= 18) {
+            System.out.println("User is an adult, no parent permission needed");
+        } else {
+            System.out.println("Prompt user to get parent permission");
+        }
 
 
-        String name = "Billy";
+
+
+        String name = "Slagathor";
         if (name.equals("Sally")) {
             System.out.println("Welcome Sally");
         } else if (name.equals("Slagathor")) {
@@ -49,7 +63,7 @@ public class ControlFlow {
         }
 
         // OR (||) Operator
-        String visitor = "Slagathor";
+        String visitor = "Sally";
         if (visitor.equals("Billy") || visitor.equals("Sally")) {
             System.out.println("Welcome in friend!");
         } else {
