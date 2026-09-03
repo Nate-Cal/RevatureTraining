@@ -1,6 +1,6 @@
 package com.revature.oop.inheritance;
 
-public class ChildTwo extends Child {
+public class ChildTwo extends Child implements Contract {
 
     public ChildTwo(int age, String name, String grade) {
         super(age, name, grade);
@@ -16,4 +16,8 @@ public class ChildTwo extends Child {
         System.out.println("La-la-la-la-LLLLLLLLAAAAAAAAAAAA!");
     }
 
+    @Override
+    public String returnAnswerToBridgeKeeperQuestion() {
+        return "";
+    }
 }
