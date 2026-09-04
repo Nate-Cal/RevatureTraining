@@ -1,1 +1,11 @@
 2026-09-04 11:59:22.217 INFO  [main] com.revature.logging.Calculator - Adding together 10 and 5 to make 15
+2026-09-04 12:15:59.647 INFO  [main] com.revature.logging.Calculator - Adding together 10 and 5 to make 15
+2026-09-04 12:15:59.666 ERROR [main] com.revature.logging.Calculator - Error trying to divide 10 by 0
+2026-09-04 12:17:46.229 INFO  [main] com.revature.logging.Calculator - Adding together 10 and 5 to make 15
+2026-09-04 12:17:46.248 ERROR [main] com.revature.logging.Calculator - Error trying to divide 10 by 0
+2026-09-04 12:22:14.193 INFO  [main] com.revature.logging.Calculator - Adding together 10 and 5 to make 15
+2026-09-04 12:22:14.203 ERROR [main] com.revature.logging.Calculator - Error trying to divide 10 by 0
+2026-09-04 12:29:01.141 INFO  [main] com.revature.logging.Calculator - Adding together 10 and 5 to make 15
+2026-09-04 12:29:01.158 ERROR [main] com.revature.logging.Calculator - Error trying to divide 10 by 0
+2026-09-04 12:29:17.131 INFO  [main] com.revature.logging.Calculator - Adding together 10 and 5 to make 15
+2026-09-04 12:29:17.145 ERROR [main] com.revature.logging.Calculator - Error trying to divide 10 by 0

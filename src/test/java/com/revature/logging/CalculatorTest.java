@@ -42,11 +42,16 @@ public class CalculatorTest {
 
     @Test
     public void dividePositive() {
-
+        int quotient = calculator.divide(10,5);
+        Assertions.assertEquals(2, quotient);
     }
 
     @Test
     public void divideThrowsCustomException() {
+        NoDividingByZero exception = Assertions.assertThrows(NoDividingByZero.class, ()->{
+            calculator.divide(10,0);
+        });
+        Assertions.assertEquals("Can't divide by zero", exception.getMessage());
 
     }
 
