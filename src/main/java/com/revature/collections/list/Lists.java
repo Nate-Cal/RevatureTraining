@@ -1,4 +1,4 @@
-package collections.list;
+package com.revature.collections.list;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

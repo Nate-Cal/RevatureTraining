@@ -1,4 +1,4 @@
-package collections.queues;
+package com.revature.collections.queues;
 
 import java.util.ArrayDeque;
 import java.util.PriorityQueue;

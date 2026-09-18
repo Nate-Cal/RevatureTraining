@@ -1,4 +1,4 @@
-package collections.ordering;
+package com.revature.collections.ordering;
 
 import java.util.Comparator;
 

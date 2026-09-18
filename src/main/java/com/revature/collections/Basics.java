@@ -1,4 +1,4 @@
-package collections;
+package com.revature.collections;
 
 public class Basics {
     /*

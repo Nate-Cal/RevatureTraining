@@ -1,4 +1,4 @@
-package collections.maps;
+package com.revature.collections.maps;
 
 import java.util.*;
 import java.util.Map.Entry;
